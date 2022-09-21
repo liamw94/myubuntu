@@ -24,8 +24,7 @@ apt install zsh -y
 sleep 2;
 chsh -s /bin/zsh
 
-git clone git@github.com:liamw94/zsh.git ~
-~/zsh/install.sh
+./zsh/install.sh
 
 # Some basic shell utlities
 printf "${YELLOW}Installing git, curl and nfs-common.. ${NC}\n";
