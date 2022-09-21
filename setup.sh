@@ -25,6 +25,9 @@ chsh -s /bin/zsh
 
 ./zsh/install.sh
 
+#SSH Config
+cp ./ssh-config/config ~/.ssh/config
+
 # Some basic shell utlities
 printf "${YELLOW}Installing git, curl and nfs-common.. ${NC}\n";
 sleep $delay_after_message;

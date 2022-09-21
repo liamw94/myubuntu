@@ -1,0 +1,11 @@
+# Comapny account (git clone git@Company:liamw94/myubuntu.git)
+Host Company
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+
+# Personal account (git clone git@Personal:liamw94/myubuntu.git)
+Host Personal
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_personal
